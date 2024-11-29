@@ -35,6 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void updateText(View view) {
         TextView txt = findViewById(R.id.txtMainLabel);
-        txt.setText("@string/RodolfoMarques");
+        txt.setText(R.string.RodolfoMarques);
     }
 }
